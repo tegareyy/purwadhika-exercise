@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var queue_1 = require("./queue");
+var queue = new queue_1.default();
+queue.addOrder("Burger");
+queue.addOrder("Pizza");
+queue.addOrder("Sushi");
+queue.addOrder("Pasta");
+queue.printQueue();
+queue.processOrders();
